@@ -1,0 +1,142 @@
+body {
+    background-color: #CED8E1;
+    font-family: 'Poppins', sans-serif;
+    color: #102B3E;
+}
+
+.admin-header {
+    background-color: #102B3E;
+    padding: 20px;
+    text-align: center;
+}
+
+.admin-header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.admin-header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.admin-header nav ul li a {
+    color: #CED8E1;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.admin-dashboard {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.admin-dashboard h1 {
+    color: #1CC8A0;
+    margin-bottom: 30px;
+}
+
+.product-form {
+    background-color: #102B3E;
+    color: #CED8E1;
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: left;
+}
+
+.product-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.product-form input[type="text"],
+.product-form input[type="number"],
+.product-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+.product-form input[type="submit"] {
+    background-color: #1CC8A0;
+    color: #102B3E;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.product-form input[type="submit"]:hover {
+    background-color: #16A085;
+}
+
+.inicio-button,
+.retry-button {
+    display: block;
+    margin-top: 20px;
+    background-color: #1CC8A0;
+    color: #102B3E;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.inicio-button:hover,
+.retry-button:hover {
+    background-color: #16A085;
+}
+
+.error-message, .success-message {
+    background-color: #FF6347;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #102B3E;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #102B3E;
+    color: #CED8E1;
+}
+
+td img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.edit-button, .delete-button {
+    background-color: #1CC8A0;
+    color: #102B3E;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.edit-button:hover, .delete-button:hover {
+    background-color: #16A085;
+}

@@ -1,0 +1,89 @@
+body {
+    background-color: #CED8E1;
+    font-family: 'Poppins', sans-serif;
+    color: #102B3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #102B3E;
+    color: #CED8E1;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+.login-form input[type="submit"] {
+    background-color: #1CC8A0;
+    color: #102B3E;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #16A085;
+}
+
+.inicio-button,
+.retry-button {
+    display: block;
+    margin-top: 20px;
+    background-color: #1CC8A0;
+    color: #102B3E;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.inicio-button:hover,
+.retry-button:hover {
+    background-color: #16A085;
+}
+
+.error-message {
+    background-color: #FF6347;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .login-container {
+        width: 90%;
+        padding: 10px;
+    }
+}
